@@ -1,4 +1,4 @@
-import { stringify } from 'querystring'
+import { stringify } from 'querystring';
 
 // Nombre archivo: usuario.model.ts
 // Proposito: Almacenar las propiedades y métodos que puede tener el usuario
@@ -9,7 +9,7 @@ import { stringify } from 'querystring'
 // Ultima modificación:
 // Descripción:
 
-export class Usuario
+export class UsuarioModel
 {
     correo: string;
     contrasena: string;
